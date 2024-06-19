@@ -4,9 +4,11 @@ import Searchbar from "./Searchbar";
 import FeaturedJobs from "./FeaturedJobs";
 import PopularJobs from "./PopularJobs";
 
-let name = "Eric Atsu";
-let email = "eric@gmail.com";
-export default function Homepage() {
+// let name = "Eric Atsu";
+// let email = "eric@gmail.com";
+export default function Homepage({route}) {
+  const { name, email } = route.params;
+
   return (
     <ScrollView>
       <View style={styles.container}>
