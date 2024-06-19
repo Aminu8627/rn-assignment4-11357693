@@ -2,28 +2,28 @@
 
 ## Assignment 4
 # Components Used
-App
+# App
 The root component that sets up navigation between LoginPage and Homepage.
 
-LoginPage
+# LoginPage
 Renders a login form where users enter their name and email, then navigate to the Homepage.
 
-Homepage
+# Homepage
 Displays the user's name and email, along with sections for featured jobs and popular jobs.
 
-FeaturedJobCard
+# FeaturedJobCard
 Displays information about a featured job.
 
-FeaturedJobs
+# FeaturedJobs
 Renders a horizontal scroll view of FeaturedJobCard components.
 
-PopularJobCard
+# PopularJobCard
 Displays information about a popular job.
 
-PopularJobs
+# PopularJobs
 Renders a list of PopularJobCard components.
 
-Searchbar
+# Searchbar
 Renders a search input for users to search for jobs.
 
 # Screenshot Of App
